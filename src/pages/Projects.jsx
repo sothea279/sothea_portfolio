@@ -29,7 +29,7 @@ export default function Projects() {
       <section className="pt-12 pb-12 text-center">
         <div data-aos="fade-down" className="space-y-4 max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">
-            <span className="bg-gradient-to-r text-[#19335c] dark:text-white bg-clip-text text-transparent">
+            <span className="text-[#19335c] dark:text-white">
               Featured Projects
             </span>
           </h1>

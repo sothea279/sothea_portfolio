@@ -138,20 +138,13 @@ export default function Navbar() {
             >
               Projects
             </Link>
-            <a
-              href="/#skills"
-              onClick={() => handleScroll('skills')}
-              className={mobileLinkClass}
-            >
-              Skills
-            </a>
-            <a
-              href="/#skills"
-              onClick={() => handleScroll('skills')}
+            <Link
+              to="/achievements"
+              onClick={() => setIsMobileMenuOpen(false)}
               className={mobileLinkClass}
             >
               Achievements
-            </a>
+            </Link>
           </div>
         )}
       </div>
