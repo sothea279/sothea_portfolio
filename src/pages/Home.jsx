@@ -214,11 +214,11 @@ const [message, setMessage] = useState("");
 
           <div data-aos="fade-left" data-aos-duration="1200" className="relative justify-self-center lg:justify-self-end w-full max-w-md">
             <div className="glass-card rounded-2xl p-1 relative z-10 overflow-hidden shadow-2xl w-full">
-              <img
-                src="./public/sothea.png"
-                alt="Sothea"
-                className="rounded-xl w-full h-auto object-cover"
-              />
+            <img
+  src="/sothea.png"
+  alt="Sothea"
+  className="rounded-xl w-full h-auto object-cover"
+/>
             </div>
           </div>
         </div>
