@@ -64,7 +64,7 @@ export default function Achievements() {
           {/* Preview */}
           <div className="bg-slate-100 dark:bg-slate-800 p-6 flex justify-center items-center">
             <iframe
-              src="/AWS_Academy.pdf"
+              src="/public/AWS_Academy.pdf"
               title="AWS Certificate"
               className="w-full h-[500px] rounded-xl"
             />
@@ -135,7 +135,7 @@ export default function Achievements() {
 
             {/* PDF */}
             <iframe
-              src="/AWS_Academy.pdf"
+              src="/public/AWS_Academy.pdf"
               title="AWS Certificate"
               className="w-full h-full"
             />
