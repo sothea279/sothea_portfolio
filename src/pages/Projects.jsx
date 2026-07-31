@@ -60,8 +60,8 @@ export default function Projects() {
       </section>
 
       {/* UX/UI Projects Section */}
-       
- <section className="py-9">
+      {(selectedCategory === 'All' || selectedCategory === 'UX/UI') && (
+        <section className="py-9">
  
 
    <h3 className="text-3xl font-bold mb-8 flex items-center gap-3">
@@ -71,7 +71,7 @@ export default function Projects() {
   </span>
 </h3>
 
-  <div className="grid lg:grid-cols-2 gap-8">
+  <div className="grid sm:grid-cols-2 gap-8">
 
     {/* ABA Card */}
     <div className="rounded-3xl overflow-hidden border shadow-xl">
@@ -306,8 +306,9 @@ export default function Projects() {
 
      
 
-  </div>
-</section>
+          </div>
+        </section>
+      )}
 
   
   
@@ -321,7 +322,7 @@ export default function Projects() {
    Web Development <span className="text-[#f8c92d]"> Projects</span>
   </span>
 </h3>
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {webProjects.map((project, index) => (
               <ProjectCard key={project.id} project={project} delay={index * 100} />
             ))}
